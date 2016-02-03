@@ -18,7 +18,8 @@
 		<input type="checkbox" name="attr_class" class="sheet-class" value='Hocus'/><label>Hocus </label>    
 		<input type="checkbox" name="attr_class" class="sheet-class" value='Operator'/><label>Operator </label>			
 		<input type="checkbox" name="attr_class" class="sheet-class" value='SavvyHead'/><label>SavvyHead </label>			
-		<input type="checkbox" name="attr_class" class="sheet-class" value='Skinner'/><label>Skinner </label>	
+		<input type="checkbox" name="attr_class" class="sheet-class" value='Skinner'/><label>Skinner </label>
+		<input type="checkbox" name="attr_class" class="sheet-class" value='Faceless'/><label>Faceless </label>	
     </div>
     <div class="sheet-2colrow" style="padding-left: 20px;">
     	<input type='checkbox' name='attr_lock_class' class='sheet-lock' style="display: none;">
@@ -30,6 +31,7 @@
 			<input type="checkbox" name="attr_class" class="sheet-class" value='Chopper'/><label style="width: 70%;">Chopper</label>
 			<input type="checkbox" name="attr_class" class="sheet-class" value='Driver'/><label style="width: 70%;">Driver</label>
 			<input type="checkbox" name="attr_class" class="sheet-class" value='GunLugger'/><label style="width: 70%;">GunLugger</label>
+			<input type="checkbox" name="attr_class" class="sheet-class" value='Faceless'/><label style="width: 70%;">Faceless</label>
 		</div>
 		<div class="sheet-col sheet-classcol" style="width: 120px;">    
 			<input type='checkbox' name='attr_lock_class' class='sheet-lock' style="display: none;">
@@ -37,7 +39,8 @@
 			<input type="checkbox" name="attr_class" class="sheet-class" value='Hocus'/><label style="width: 70%;">Hocus </label>    
 			<input type="checkbox" name="attr_class" class="sheet-class" value='Operator'/><label style="width: 70%;">Operator </label>	
 			<input type="checkbox" name="attr_class" class="sheet-class" value='SavvyHead'/><label style="width: 70%;">SavvyHead </label>			
-			<input type="checkbox" name="attr_class" class="sheet-class" value='Skinner'/><label style="width: 70%;">Skinner </label>	
+			<input type="checkbox" name="attr_class" class="sheet-class" value='Skinner'/><label style="width: 70%;">Skinner </label>
+			<input type="checkbox" name="attr_class" class="sheet-class" value='Faceless'/><label style="width: 70%;">Faceless </label>
 		</div>
 	</div>           
 
@@ -123,6 +126,7 @@
 					<input type="checkbox" name="attr_class" class="sheet-isOperator" value='Operator' style="display: none;" />
 					<input type="checkbox" name="attr_class" class="sheet-isSavvyhead" value='SavvyHead' style="display: none;" />
 					<input type="checkbox" name="attr_class" class="sheet-isSkinner" value='Skinner' style="display: none;" />
+					<input type="checkbox" name="attr_class" class="sheet-isFaceless" value='Faceless' style="display: none;" />
 					<!-- End Class Selected -->
 				
 					<div class="sheet-angel">
@@ -345,6 +349,26 @@
 							<li><label class="sheet-improvement"><input type="checkbox" name="attr_skinner-improvement-21" /> advance the other 4 basic moves.</label></li>
 						</ul>
 					</div>
+					<div class="sheet-Faceless">
+						<ul>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-6" /> get +1hot (max hot+2)</label></li>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-7" /> get +1sharp (max sharp+2)</label></li>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-8" /> get +1weird (max weird+2)</label></li>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-9" /> get a new move from your class</label></li>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-10" /> get a new move from your class</label></li>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-11" /> get a new move from your class</label></li>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-12" /> get a gang (detail) and pack alpha</label></li>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-13" /> get a holding (detail) and wealth</label></li>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-14" /> get a move from another playbook</label></li>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-15" /> get a move from another playbook</label></li>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-16" /> get +1 to any stat (max stat+3)</label></li>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-17" /> retire your character (to safety)</label></li>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-18" /> create a second character to play</label></li>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-19" /> change your character to a new type</label></li>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-20" /> choose 3 basic moves and advance them.</label></li>
+							<li><label class="sheet-improvement"><input type="checkbox" name="attr_Faceless-improvement-21" /> advance the other 4 basic moves.</label></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -426,6 +450,7 @@
 			<input type="checkbox" name="attr_class" class="sheet-isOperator" value='Operator' style="display: none;" />
 			<input type="checkbox" name="attr_class" class="sheet-isSavvyhead" value='SavvyHead' style="display: none;" />
 			<input type="checkbox" name="attr_class" class="sheet-isSkinner" value='Skinner' style="display: none;" />
+			<input type="checkbox" name="attr_class" class="sheet-isFaceless" value='Faceless' style="display: none;" />
 			<!-- End Class Selected -->
         	<label class="sheet-other sheet-section-title">Other:</label>
 
@@ -453,7 +478,11 @@
 					<label class="sheet-crew">Crew Contacts:</label>
 					<textarea rows="4" cols="50" name="attr_crew"></textarea>
 				</div>
-                
+				
+              		        <div class="sheet-faceless">
+					<label class="sheet-crew">Crew Contacts:</label>
+					<textarea rows="4" cols="50" name="attr_crew"></textarea>
+				</div>
                 <div class="sheet-brainer">
                     <label class="sheet-stock">Puppet Strings:</label>
     				<textarea rows="4" cols="50" name="attr_puppetstrings"></textarea>
@@ -472,6 +501,7 @@
 			<input type="checkbox" name="attr_class" class="sheet-isOperator" value='Operator' style="display: none;" />
 			<input type="checkbox" name="attr_class" class="sheet-isSavvyhead" value='SavvyHead' style="display: none;" />
 			<input type="checkbox" name="attr_class" class="sheet-isSkinner" value='Skinner' style="display: none;" />
+			<input type="checkbox" name="attr_class" class="sheet-isFaceless" value='Faceless' style="display: none;" />
 			<!-- End Class Selected -->
 			
 			<div class="sheet-holder sheet-box">
